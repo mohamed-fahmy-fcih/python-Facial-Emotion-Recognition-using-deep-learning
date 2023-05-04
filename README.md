@@ -1,6 +1,6 @@
 # python-Facial-Emotion-Recognition-using-deep-learning
 # Facial Emotion Recognition | VGG19 Model
-![](https://asset.cloudinary.com/dzd2k9k9a/98b254b02d6cd3ba3510e0b8e8051e3c)
+![alt text](https://asset.cloudinary.com/dzd2k9k9a/98b254b02d6cd3ba3510e0b8e8051e3c)
 
 A typical dataset for face emotion detection is the Fer2013 dataset. The dataset includes 35,887 grayscale portraits of faces displaying 7 various emotions. 
 (anger, disgust, fear, happiness, neutral, sad, and surprise).
@@ -16,4 +16,4 @@ In order to adapt the VGG19 model for face emotions in the fer2013 dataset, the 
 
 The VGG19 model's final layer is made up of levels that are completely linked. 
 The facial emotions in the collection are categorized using these levels.
-The final layer of the VGG19 model is retrained to have a classifier with seven outputs because the Fer2013 dataset contains seven distinct mood classes.![Uploading emoition_detection.png…]()
+The final layer of the VGG19 model is retrained to have a classifier with seven outputs because the Fer2013 dataset contains seven distinct mood classes
