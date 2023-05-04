@@ -2,18 +2,38 @@
 # Facial Emotion Recognition | VGG19 Model
 ![alt text](https://res.cloudinary.com/dzd2k9k9a/image/upload/v1683172419/FER-2013-sample-images-for-facial-emotion-recognition_uz3k4f.jpg)
 
-A typical dataset for face emotion detection is the Fer2013 dataset. The dataset includes 35,887 grayscale portraits of faces displaying 7 various emotions. 
-(anger, disgust, fear, happiness, neutral, sad, and surprise).
+# Facial Emotion Recognition using Deep Learning in Python
+This is a Python-based facial emotion recognition project that uses deep learning algorithms to detect and classify facial expressions. The project is built using the Keras deep learning library for Python.
+![alt text](https://res.cloudinary.com/dzd2k9k9a/image/upload/v1683173440/Screenshot_21_hxppo8.png)
 
-Convolutional Neural Network (CNN) design is the name of the deep learning model VGG19. Convolutional layers make up 16 of the 19 layers in the VGG19 model,
-while completely linked layers make up the remaining 3 layers. Utilizing filters, convolutional layers extract features from the input image.
+# Features
+Real-time facial emotion recognition from a webcam feed
+Detection of six basic emotions: happy, sad, angry, surprised, disgusted, and neutral
+Model trained on the FER-2013 dataset
+Graphical user interface (GUI) for easy use
 
-With the help of the VGG19 model's pre-trained weights, transfer learning can be accomplished. 
-The process of solving an issue in a new dataset using the weights of a learned model is known as transfer learning.
+# Requirements
+Python 3.6 or higher
+Keras 2.2.4 or higher
+OpenCV 4.0 or higher
+NumPy 1.16.4 or higher
+Matplotlib 3.1.0 or higher
 
-Pre-trained weights are frequently used to categorize pictures in the ImageNet collection for the VGG19 model. 
-In order to adapt the VGG19 model for face emotions in the fer2013 dataset, the final layer is retrained.
+# Usage
+Open the program by running the main.py file.
 
-The VGG19 model's final layer is made up of levels that are completely linked. 
-The facial emotions in the collection are categorized using these levels.
-The final layer of the VGG19 model is retrained to have a classifier with seven outputs because the Fer2013 dataset contains seven distinct mood classes
+Click on the "Start" button to begin the facial emotion recognition process.
+
+Hold your face in front of the webcam and wait for the program to detect your face.
+
+The program will display the detected emotion on the screen.
+
+
+# Contributing
+Contributions are welcome! If you have any suggestions for new features or improvements, please create a pull request.
+
+# License
+This project is licensed under the MIT License. See the LICENSE file for more information.
+
+# Acknowledgments
+This project was inspired by the work of Prajna Bhandary. The facial emotion recognition model was trained on the FER-2013 dataset, which can be found here.
